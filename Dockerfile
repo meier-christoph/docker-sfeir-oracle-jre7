@@ -9,7 +9,7 @@ RUN wget \
 	--no-cookies \
 	--no-check-certificate \
 	--header "Cookie: oraclelicense=accept-securebackup-cookie" \
-	"http://download.oracle.com/otn-pub/java/jdk/7u67-b19/server-jre-7u67-linux-x64.tar.gz" \
+	"http://download.oracle.com/otn-pub/java/jdk/7u67-b01/server-jre-7u67-linux-x64.tar.gz" \
 	-O /tmp/server-jre-7u67-linux-x64.tar.gz
 
 RUN mkdir /opt/java-oracle \
